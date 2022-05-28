@@ -5,4 +5,4 @@ set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Werror -Wall -Wextra -pedantic")
 
 
-add_executable(Vektoruebung main.c vektor.c vektor.h)
+add_executable(Vektoruebung vektormain.c vektor.c vektor.h)
